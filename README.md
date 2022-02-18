@@ -5,31 +5,17 @@
 https://github.com/Gourouting/singo
 
 
-## 特色
-
-本项目基于Singo做了以下修改：
-
-1. 加入了Snowflake算法以生成分布式ID。
-2. 将Session存入redis中，以支持分布式会话共享。
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-
-
-本项目划分出下列模块:
+## 项目模块说明
 
 1. api文件夹就是MVC框架的controller，负责协调各部件完成任务
 2. model文件夹负责数据库表实体
 3. service是MVC框架的Service层，负责处理业务逻辑
-5. cache负责redis缓存相关的代码
-7. common一些通用工具、错误状态码、常量等
-8. conf放一些静态存放的配置文件
-9. db存放初始化数据库文件
-10. vo存放页面输入模型
-11. middleware存放gin相关中间件
+4. cache负责redis缓存相关的代码
+5. common一些通用工具、错误状态码、常量等
+6. conf放一些静态存放的配置文件
+7. db存放初始化数据库文件
+8. vo存放页面输入模型
+9. middleware存放gin相关中间件
 
 ## Godotenv
 
