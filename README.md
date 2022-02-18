@@ -17,6 +17,10 @@ https://github.com/Gourouting/singo
 8. vo存放页面输入模型
 9. middleware存放gin相关中间件
 
+## 抢课流程图
+
+![Image text](https://github.com/liwentaoCH/byte-camp/blob/master/%E6%8A%A2%E8%AF%BE%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+
 ## Godotenv
 
 项目在启动的时候依赖以下环境变量，但是在也可以在项目根目录创建.env文件设置环境变量便于使用(建议开发环境使用)
