@@ -19,14 +19,12 @@ https://github.com/Gourouting/singo
 8. 
 
 
-本项目已经预先创建了一系列文件夹划分出下列模块:
+本项目划分出下列模块:
 
 1. api文件夹就是MVC框架的controller，负责协调各部件完成任务
 2. model文件夹负责数据库表实体
 3. service是MVC框架的Service层，负责处理业务逻辑
-4. serializer储存通用的json模型，把model得到的数据库模型转换成api需要的json对象
 5. cache负责redis缓存相关的代码
-6. auth权限控制文件夹
 7. common一些通用工具、错误状态码、常量等
 8. conf放一些静态存放的配置文件
 9. db存放初始化数据库文件
