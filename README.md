@@ -1,10 +1,6 @@
 # 学生选排课系统
 
 
-本项目基于Singo开发
-https://github.com/Gourouting/singo
-
-
 ## 项目模块说明
 
 1. api文件夹就是MVC框架的controller，负责协调各部件完成任务
