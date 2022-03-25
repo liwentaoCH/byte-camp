@@ -9,9 +9,8 @@
 4. cache负责redis缓存相关的代码
 5. common一些通用工具、错误状态码、常量等
 6. conf放一些静态存放的配置文件
-7. db存放初始化数据库文件
-8. vo存放页面输入模型
-9. middleware存放gin相关中间件
+7. vo存放页面输入模型
+8. middleware存放gin相关中间件
 
 ## 抢课流程图
 
